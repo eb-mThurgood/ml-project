@@ -79,25 +79,9 @@ Code
 🧱 1. Data Ingestion
 The project uses the TPCDS_SF1000 dataset available in Databricks sample data.
 
-Example tables used:
+Example tables used: store_sales,web_sales,customer,date_dim,item
 
-store_sales
-
-web_sales
-
-customer
-
-date_dim
-
-item
-
-The ingestion notebook:
-
-Reads raw tables
-
-Selects relevant columns
-
-Writes cleaned Delta tables to /mnt/raw/tpcds/
+The ingestion notebook:Reads raw tables,Selects relevant columns,Writes cleaned Delta tables 
 
 🧪 2. Feature Engineering (PySpark)
 This is the heart of the project and demonstrates your Data Engineering strength.
